@@ -44,7 +44,7 @@ export const store = reactive({
     works: [
         {
             name: "Boolflix",
-            image: "/src/assets/netflix.png",
+            image: "/assets/netflix.png",
             description: "Riproduzione del famoso sito di streaming Netflix, creato utilizzando VueJS ed effettuando delle chiamate API ad un database chiamato 'The Movie DB'. l'utente può scegliere i film o le serie tv per categoria o per ricerca del nome.",
             code: "https://github.com/Leo9723/vite-boolflix",
             technologies: [
@@ -134,7 +134,7 @@ export const store = reactive({
     skills: [
         {
             name: "HTML",
-            image: "/src/assets/html.png"
+            image: "/assets/html.png"
         },
         {
             name: "CSS",
