@@ -13,7 +13,7 @@ export default {
             Sento di rispecchiarmi nel mondo della programmazione per la sua dinamicità ed il suo cambiamento, che lo rendono unico e stimolante, non facendomi perdere la voglia di imparare sempre qualcosa di nuovo. 
         </div>
         <div class="image d-flex flex-column text-center py-5 py-md-0">
-            <img src="../../../public/image.jpeg" alt="">
+            <img src="../../assets/image.jpeg" alt="">
             <div class="name mt-4">
                 Leonardo <br> Palazzetti
             </div>

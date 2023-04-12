@@ -26,7 +26,7 @@ export const store = reactive({
     ],
     experiences: [
         {
-            image:"../../../public/Boolean.jpg",
+            image:"../../assets/Boolean.jpg",
             title: "Boolean Careers",
             name: "Full Stack Web Developer Trainee",
             startDate: "Ottobre 2022",
@@ -44,7 +44,7 @@ export const store = reactive({
     works: [
         {
             name: "Boolflix",
-            image: "../../../public/netflix.png",
+            image: "/src/assets/netflix.png",
             description: "Riproduzione del famoso sito di streaming Netflix, creato utilizzando VueJS ed effettuando delle chiamate API ad un database chiamato 'The Movie DB'. l'utente può scegliere i film o le serie tv per categoria o per ricerca del nome.",
             code: "https://github.com/Leo9723/vite-boolflix",
             technologies: [
@@ -56,7 +56,7 @@ export const store = reactive({
         },
         {
             name: "Spotify",
-            image: "../../../public/spotify.png",
+            image: "/src/assets/spotify.png",
             description: "Riproduzione del famoso sito di streaming musicale, con parte responsive.",
             code: "https://github.com/Leo9723/html-css-spotifyweb",
             technologies: [
@@ -66,7 +66,7 @@ export const store = reactive({
         },
         {
             name: "Whatsapp",
-            image: "../../../public/whatsapp.png",
+            image: "/src/assets/whatsapp.png",
             description: "Riproduzione di Whatsapp Web, famosa app per la messaggistica online, consente all'utente di inviare messaggi e ricevere risposte preimpostate, di eliminare messaggi e ricercare chat dinamicamente.",
             code: "https://github.com/Leo9723/vue-boolzapp",
             technologies: [
@@ -77,7 +77,7 @@ export const store = reactive({
         },
         {
             name: "Dropbox",
-            image: "../../../public/dropbox.png",
+            image: "/src/assets/dropbox.png",
             description: "Riproduzione della parte FrontEnd della Homepage di Dropbox",
             code: "https://github.com/Leo9723/htmlcss-dropbox",
             technologies: [
@@ -87,7 +87,7 @@ export const store = reactive({
         },
         {
             name: "Boolpress",
-            image: "../../../public/boolpress.png",
+            image: "/src/assets/boolpress.png",
             description: "Progetto basato sull uso di Laravel, del pattern MVC e MySql. permette all'utente di registrarsi ed entrare nel suo profilo, modificarlo a suo piacimento aggiungendo, togliendo e modificando elementi.",
             code: "https://github.com/Leo9723/laravel-api",
             technologies: [
@@ -99,7 +99,7 @@ export const store = reactive({
         },
         {
             name: "Campo Minato",
-            image: "../../../public/boom.png",
+            image: "/src/assets/boom.png",
             description: "Riproduzione del famoso gioco Campo Minato con l'uso di HTML, CSS e JavaScript.",
             code: "https://github.com/Leo9723/js-campominato-dom",
             technologies: [
@@ -110,7 +110,7 @@ export const store = reactive({
         },
         {
             name: "Max Coatch",
-            image: "../../../public/max.png",
+            image: "/src/assets/max.png",
             description: "Riproduzione della parte FrontEnd della Homepage di Max Coatch",
             code: "https://github.com/Leo9723/proj-html-vuejs",
             technologies: [
@@ -122,7 +122,7 @@ export const store = reactive({
         },
         {
             name: "Discord",
-            image: "../../../public/discord.png",
+            image: "/src/assets/discord.png",
             description: "Riproduzione della parte FrontEnd della Homepage di Discord",
             code: "https://github.com/Leo9723/htmlcss-discord",
             technologies: [
@@ -134,55 +134,55 @@ export const store = reactive({
     skills: [
         {
             name: "HTML",
-            image: "../../../public/html.png"
+            image: "/src/assets/html.png"
         },
         {
             name: "CSS",
-            image: "../../../public/css.png"
+            image: "/src/assets/css.png"
         },
         {
             name: "JavaScript",
-            image: "../../../public/js.png"
+            image: "/src/assets/js.png"
         },
         {
             name: "Bootstrap",
-            image: "../../../public/bootstrap.webp"
+            image: "/src/assets/bootstrap.webp"
         },
         {
             name: "VueJs",
-            image: "../../../public/vue.png"
+            image: "/src/assets/vue.png"
         },
         {
             name: "Vue-Router",
-            image: "../../../public/router.png"
+            image: "/src/assets/router.png"
         },
         {
             name: "Axios",
-            image: "../../../public/axios.png"
+            image: "/src/assets/axios.png"
         },
         {
             name: "Sass",
-            image: "../../../public/sass.png"
+            image: "/src/assets/sass.png"
         },
         {
             name: "Vite",
-            image: "../../../public/vite.png"
+            image: "/src/assets/vite.png"
         },
         {
             name: "PHP",
-            image: "../../../public/php.png"
+            image: "/src/assets/php.png"
         },
         {
             name: "PHPMyAdmin",
-            image: "../../../public/phpmyadmin.png"
+            image: "/src/assets/phpmyadmin.png"
         },
         {
             name: "Laravel",
-            image: "../../../public/laravel.png"
+            image: "/src/assets/laravel.png"
         },
         {
             name: "MySql",
-            image: "../../../public/mysql.png"
+            image: "/src/assets/mysql.png"
         }
     ]
 })
