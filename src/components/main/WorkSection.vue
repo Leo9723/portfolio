@@ -17,7 +17,7 @@ export default {
         </div>
         <div class="d-flex flex-wrap justify-content-around text-center py-5">
             <div class="work my-4 mx-5 pb-2" v-for="item in this.store.works">
-                <img :src="item.image" alt="">
+                <img src="../../assets/netflix.jpeg" alt="">
                 <div class="name">
                     {{ item.name }}
                 </div>
