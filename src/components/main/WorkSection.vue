@@ -4,7 +4,8 @@ import { store } from '../../store.js'
 export default {
     data() {
         return {
-            store
+            store,
+            rowan: "../../assets/netflix.jpeg"
         }
     },
 }
@@ -17,7 +18,7 @@ export default {
         </div>
         <div class="d-flex flex-wrap justify-content-around text-center py-5">
             <div class="work my-4 mx-5 pb-2" v-for="item in this.store.works">
-                <img src="../../assets/netflix.jpeg" alt="">
+                <img :src="this.rowan" alt="">
                 <div class="name">
                     {{ item.name }}
                 </div>
