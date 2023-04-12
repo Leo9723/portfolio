@@ -134,7 +134,7 @@ export const store = reactive({
     skills: [
         {
             name: "HTML",
-            image: "/assets/html.png"
+            image: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/640px-HTML5_logo_and_wordmark.svg.png"
         },
         {
             name: "CSS",
