@@ -5,7 +5,7 @@ export default {
     data() {
         return {
             store,
-            rowan: "../../assets/netflix.jpeg"
+            rowan: "/assets/netflix.jpeg"
         }
     },
 }
