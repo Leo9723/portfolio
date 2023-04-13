@@ -122,7 +122,7 @@ export const store = reactive({
         },
         {
             name: "Discord",
-            image: "/src/assets/discord.png",
+            image: "/discord.png",
             description: "Riproduzione della parte FrontEnd della Homepage di Discord",
             code: "https://github.com/Leo9723/htmlcss-discord",
             technologies: [
