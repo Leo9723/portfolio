@@ -23,7 +23,7 @@ export default {
                 </div>
                 <div class="hover pt-3 px-3">
                     {{ item.description }}
-                    <ul class="d-flex justify-content-center flex-wrap">
+                    <ul class="d-flex justify-content-center flex-wrap px-0">
                         <li v-for="technology in item.technologies" class="mx-2 mt-1">
                             {{ technology }}
                         </li>

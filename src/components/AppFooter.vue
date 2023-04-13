@@ -11,7 +11,7 @@ export default {
     <div>
       <ContactSection></ContactSection>
       <div class="copyright d-flex justify-content-around py-5">
-        <span>Hendcrafted with <i class="fa-regular fa-heart"></i></span>
+        <span>Handcrafted with <i class="fa-regular fa-heart"></i></span>
         <span>copyright <i class="fa-regular fa-copyright"></i> Leonardo Palazzetti 2023</span>
       </div>
     </div>

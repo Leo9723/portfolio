@@ -11,7 +11,6 @@ export default {
         loadPage() {
             setInterval(() => {
             this.store.load++;
-            console.log(this.store.load)
         }, 1000);
     }
 

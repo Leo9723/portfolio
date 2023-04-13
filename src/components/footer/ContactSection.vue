@@ -29,7 +29,7 @@ export default {
                 <a href="https://www.linkedin.com/in/leonardo-palazzetti-8b7234233/">Linkedin</a> <span class="show">/leonardo-palazzetti</span>
             </div>
             <div class="footer-item">
-                <a href="../../../public/Leonardo-Palazzetti-CV.pdf" download>My CV</a> <span class="show">Download it!</span>
+                <a href="/Leonardo-Palazzetti-CV.pdf" download>My CV</a> <span class="show">Download it!</span>
             </div>
         </div>
     </div>
