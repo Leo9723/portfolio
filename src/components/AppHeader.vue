@@ -63,6 +63,9 @@ export default {
     z-index: 2;
     background-image: linear-gradient(rgb(104, 72, 235), transparent);
     min-height: 100px;
+    ul{
+        list-style-type: none;
+    }
     button{
         border: none;
     }
