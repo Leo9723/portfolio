@@ -19,9 +19,9 @@ export default {
             <div class="text-center  mb-5 int">
                 EXPERIENCE.
             </div>
-            <ul class="d-flex justify-content-center">
+            <ul class="d-flex justify-content-center px-0 flex-column flex-md-row align-items-center">
                 <li v-for="item in this.store.experiences">
-                    <div class="experience mx-md-5">
+                    <div class="experience mx-md-5 mb-5">
                         <div class="text-center">
                             <img :src="item.image" alt="">
                             <div class="title mt-3">
