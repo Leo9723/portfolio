@@ -174,7 +174,7 @@ export const store = reactive({
         },
         {
             name: "PHPMyAdmin",
-            image: "/phpmyadmin.png"
+            image: "/pma.png"
         },
         {
             name: "Laravel",

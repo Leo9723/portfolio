@@ -16,7 +16,7 @@ export default {
         </div>
         <ul class="d-flex flex-wrap justify-content-center px-0">
             <li v-for="item in this.store.skills" class="d-flex justify-content-center align-items-center flex-column flex-md-row mx-5 mx-md-0">
-                <img :src="item.image" alt="" class="mx-4">
+                <div :style="{ 'background-image': 'url(' + item.image + ')' }" class="bkg-image"></div>
                 {{ item.name }}
             </li>
         </ul>
@@ -24,6 +24,15 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.bkg-image{
+    height: 50px;
+    width: 50px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 20px;
+}
     .skills{
         .title{
             color: rgb(61, 24, 170);
