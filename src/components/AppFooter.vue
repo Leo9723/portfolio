@@ -10,7 +10,7 @@ export default {
 <template>
     <div>
       <ContactSection></ContactSection>
-      <div class="copyright d-flex justify-content-around py-5">
+      <div class="copyright d-flex justify-content-around py-5 flex-column flex-md-row">
         <span>Handcrafted with <i class="fa-regular fa-heart"></i></span>
         <span>copyright <i class="fa-regular fa-copyright"></i> Leonardo Palazzetti 2023</span>
       </div>

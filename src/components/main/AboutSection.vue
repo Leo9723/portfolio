@@ -6,7 +6,7 @@ export default {
 
 <template lang="">
     <div class="about d-flex align-items-center col-12 justify-content-evenly flex-column flex-md-row" id="about">
-        <div class="desc col-4">
+        <div class="desc col-10 col-md-4">
             <div class="title mb-4"> About Me.</div>
             Sono stato da sempre attratto dalla tecnologia, quindi ho deciso di intraprendere un percorso di studi pertinente approcciandomi in particolar modo alla programmazione. <br>
             Di pari passo all'avanzamento dei miei studi è cresciuta la mia passione e la mia curiosità verso questo settore in costante evoluzione. <br>
@@ -18,7 +18,6 @@ export default {
                 Leonardo <br> Palazzetti
             </div>
         </div>
-
     </div>
 </template>
 

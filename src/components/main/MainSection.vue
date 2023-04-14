@@ -23,7 +23,7 @@ export default {
 
 <template lang="">
     <div class="d-flex flex-column align-items-center justify-content-around h-100" id="home">
-        <div :class="(this.store.load >= 3) ? 'initial-desc-load initial-desc' : 'initial-desc'">
+        <div :class="(this.store.load >= 3) ? 'initial-desc-load initial-desc mt-5' : 'initial-desc'">
            <span>Ciao.</span> <br> Mi chiamo Leonardo
         </div>
         <div :class="(this.store.load >= 5) ? 'final-desc-load final-desc px-5 px-md-0' : 'final-desc'">
@@ -67,6 +67,45 @@ export default {
     .initial-desc-load, .final-desc-load{
         font-weight: 900;
         font-size: 40px;
+    }
+    @media screen and (max-width: 481px){
+        .initial-desc{
+        font-size: 30px;
+    }
+        .initial-desc-load.initial-desc{
+        span{
+            font-size: 35px;
+        }
+    }
+    .final-desc{
+
+        font-size: 30px;
+    }
+        .final-desc-load.final-desc{
+        span{
+            font-size: 35px;
+        }
+    }
+    }
+
+    @media screen and (max-width: 769px) and (min-width: 481px){
+        .initial-desc{
+        font-size: 35px;
+    }
+        .initial-desc-load.initial-desc{
+        span{
+            font-size: 40px;
+        }
+    }
+    .final-desc{
+
+        font-size: 35px;
+    }
+        .final-desc-load.final-desc{
+        span{
+            font-size: 40px;
+        }
+    }
     }
     
 </style>

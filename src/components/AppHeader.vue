@@ -25,11 +25,11 @@ export default {
             </div>
             </nav>
             <div class="collapse" id="navbarToggleExternalContent">
-            <div class="p-4">
-                <li v-for="item in this.store.HeaderList" class="mx-3">
-                        <a :href="item.link" :class="(this.store.load >= 2) ? 'b load-list' : 'b'">{{ item.name }}</a>
-                </li>
-            </div>
+                <div class="p-4">
+                    <li v-for="item in this.store.HeaderList" class="mx-3">
+                            <a :href="item.link" :class="(this.store.load >= 2) ? 'b load-list' : 'b'">{{ item.name }}</a>
+                    </li>
+                </div>
             </div>
         </div>
         <div class="d-flex justify-content-between header desktop-header d-none d-md-flex">
@@ -49,6 +49,12 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
 .mobile-navbar{
     color: white;
     font-family: 'Oswald', sans-serif;
@@ -66,7 +72,8 @@ export default {
     }
     a{
         text-decoration: none;
-        color: white;
+        color: rgb(207, 226, 251);
+        text-shadow: 0px 0px 10px rgb(0, 13, 255);
         font-weight: bold;
         font-size: x-large;
         transition: all 0.5s;
@@ -77,6 +84,7 @@ export default {
 }
 .header-container{
     background: linear-gradient(rgb(104, 72, 235), transparent, black), url(../../public/back-tech.gif);
+    background-position: center;
     background-size: cover;
     height: 100vh;
 }

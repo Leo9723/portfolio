@@ -21,7 +21,7 @@ export default {
             </div>
             <ul class="d-flex justify-content-center">
                 <li v-for="item in this.store.experiences">
-                    <div class="experience mx-5">
+                    <div class="experience mx-md-5">
                         <div class="text-center">
                             <img :src="item.image" alt="">
                             <div class="title mt-3">
@@ -39,7 +39,7 @@ export default {
                         </div>
                         <ul>
                             <li v-for="technology in item.technologies">
-                                <i class="fa-solid fa-caret-right"></i> {{ technology }}
+                                <i class="fa-solid fa-caret-right word-sh"></i> {{ technology }}
                             </li>
                         </ul>
                     </div>
@@ -53,6 +53,9 @@ export default {
 </template>
 
 <style lang="scss" scoped>
+.word-sh{
+    color: violet;
+}
 .left-circle{
     height: 95%;
     border-radius: 100%;

@@ -14,8 +14,8 @@ export default {
         <div class="text-center py-5 title">
             SKILLS.
         </div>
-        <ul class="d-flex flex-wrap justify-content-center">
-            <li v-for="item in this.store.skills" class="d-flex justify-content-center align-items-center">
+        <ul class="d-flex flex-wrap justify-content-center px-0">
+            <li v-for="item in this.store.skills" class="d-flex justify-content-center align-items-center flex-column flex-md-row mx-5 mx-md-0">
                 <img :src="item.image" alt="" class="mx-4">
                 {{ item.name }}
             </li>
