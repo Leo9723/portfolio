@@ -22,11 +22,19 @@ export default {
 </script>
 
 <template lang="">
-    <div class="d-flex flex-column align-items-center justify-content-around h-100" id="home">
+    <div class="d-none d-md-flex flex-column align-items-center justify-content-around h-100" id="home">
         <div :class="(this.store.load >= 3) ? 'initial-desc-load initial-desc mt-5' : 'initial-desc'">
            <span>Ciao.</span> <br> Mi chiamo Leonardo
         </div>
         <div :class="(this.store.load >= 5) ? 'final-desc-load final-desc px-5 px-md-0' : 'final-desc'">
+            Sono un <br> <span>Jr. Full Stack Web Developer</span>
+        </div>
+    </div>
+    <div class="d-flex flex-column align-items-center justify-content-around h-100 d-md-none" id="home">
+        <div :class="(this.store.load >= 1) ? 'initial-desc-load initial-desc mt-5' : 'initial-desc'">
+           <span>Ciao.</span> <br> Mi chiamo Leonardo
+        </div>
+        <div :class="(this.store.load >= 2) ? 'final-desc-load final-desc px-5 px-md-0' : 'final-desc'">
             Sono un <br> <span>Jr. Full Stack Web Developer</span>
         </div>
     </div>
